@@ -1,39 +1,39 @@
 main .section.personal-details-container {
-    padding: 0;
-    position: absolute;
-    top: 100px;
-    right: 2%;
-    background: transparent;
-    color: #ffffff;
+  padding: 0;
+  position: absolute;
+  top: 160px;
+  right: 2%;
+  background: transparent;
+  color: #ffffff;
 }
 .personal-details-container .personal-details-wrapper {
-    padding: 30px;
-    background: #03ffff82;
-    border-radius: 23px;
-    min-width: 320px;
-    max-width: 320px;
+  padding: 30px;
+  background: #03ffff82;
+  border-radius: 23px;
+  min-width: 320px;
+  max-width: 320px;
 }
-.personal-details>div {
-    display: flex;
+.personal-details > div {
+  display: flex;
 }
-.personal-details>div>div {
-    min-width: 35%;
+.personal-details > div > div {
+  min-width: 35%;
 }
 
 @media (max-width: 900px) {
-    main .section.personal-details-container {
-        padding: 0;
-        position: inherit;
-    }
-    .personal-details-container .personal-details-wrapper {
-        padding: 30px;
-        background: #03ffff82;
-        border-radius: 23px;
-    }
-    .personal-details>div {
-        display: flex;
-    }
-    .personal-details>div>div {
-        min-width: 50%;
-    }
+  main .section.personal-details-container {
+    padding: 0;
+    position: inherit;
+  }
+  .personal-details-container .personal-details-wrapper {
+    padding: 30px;
+    background: #03ffff82;
+    border-radius: 23px;
+  }
+  .personal-details > div {
+    display: flex;
+  }
+  .personal-details > div > div {
+    min-width: 50%;
+  }
 }

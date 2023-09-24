@@ -12,12 +12,68 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #ee9322;
+  --link-hover-color: #ee9322;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
+  --color-white: #fff;
+
+  --color-info-accent: inherit;
+  --color-info-accent-hover: inherit;
+  --color-info-accent-down: inherit;
+  --color-info-primary: inherit;
+  --color-info-primary-hover: inherit;
+  --color-info-primary-down: inherit;
+  --color-info-secondary: inherit;
+  --color-info-secondary-hover: inherit;
+  --color-info-secondary-down: inherit;
+  --color-info-accent-reverse: inherit;
+  --color-info-accent-reverse-down: inherit;
+
+  /* Redesign colors */
+  --color-font-grey: #2c2c2c;
+  --color-light-grey-600: #686868;
+  --color-eyebrow-light-grey: #444;
+  --color-eyebrow-highlight: #6870ec;
+  --color-accent-blue: #6870ec;
+  --color-accent-highlight-yellow: #e3fa8c;
+  --color-accent-pink-bg: #f0b2f2;
+  --color-accent-pink-content: #88008d;
+  --color-accent-purple-bg: #474eb8;
+  --color-accent-purple-content: #e2e4ff;
+  --color-accent-lightgreen-bg: #e1fa82;
+  --color-accent-lightgreen-content: #3b5700;
+  --color-accent-yellow-bg: #f5e66b;
+  --color-accent-yellow-content: #7f6000;
+
+  /* background colors */
+  --bg-color-lightgrey: #f8f8f8;
+  --bg-color-grey: #e8e8e8;
+  --bg-color-grey-2: #d6d6d6;
+  --overlay-curtain-bg-color: rgb(0 0 0 / 60%);
+  --overlay-curtain-bg-filter: blur(0.05em);
+  --code-bg-color: #f1f1f1;
+
+  /* Grid / container width -- 600px, 900px */
+  --grid-mobile-container-width: 88%;
+  --grid-tablet-container-width: 83%;
+  --grid-laptop-container-width: 90%;
+  --grid-desktop-container-width: 1200px;
+
+  /* header navbar */
+  --header-container-width: 1440px;
+  --header-container-tablet-x-padding: 24px;
+  --header-container-desktop-x-padding: 20px;
+
+  /* Border-radius */
+  --input-border-radius: 4px;
+  --image-border-radius-m: 8px;
+  --image-border-radius-l: 16px;
+  --image-border-radius-xl: 24px;
+  --image-border-radius-xxl: 30px;
+  --card-border-radius-l: 12px;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -39,6 +95,18 @@
 
   /* nav height */
   --nav-height: 64px;
+
+   /* Spacing (Consonant) */
+   --spacing-xxxs: 4px;
+   --spacing-xxs: 8px;
+   --spacing-xs: 16px;
+   --spacing-s: 24px;
+   --spacing-m: 32px;
+   --spacing-ml: 40px;
+   --spacing-l: 48px;
+   --spacing-xl: 56px;
+   --spacing-xxl: 80px;
+   --spacing-xxxl: 104px;
 
 }
 
