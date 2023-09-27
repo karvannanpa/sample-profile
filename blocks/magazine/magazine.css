@@ -1,0 +1,21 @@
+
+.magazine-wrapper .magazine.block>div {
+    display: flex;
+    border: 1px solid #ee9321;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.magazine-wrapper .magazine.block>div div {
+    padding: 20px;
+    width: auto;
+}
+
+@media (min-width: 900px) {
+    .magazine-wrapper .magazine.block>div {
+       flex-direction: row;
+    }
+    .magazine-wrapper .magazine.block>div div {
+        padding: 20px;
+        width: 50%;
+    }
+}
