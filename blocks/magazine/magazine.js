@@ -1,6 +1,6 @@
 console.log("data");
 const apiUrl =
-  "https://main--sample-project--karvannanpa.hlx.page/project.json";
+  "https://main--sample-profile--karvannanpa.hlx.page/project.json";
 const dataContainer = document.querySelector(".magazine.block");
 
 const fetchDataAndAppend = () => {
