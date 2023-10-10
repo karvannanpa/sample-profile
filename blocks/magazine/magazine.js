@@ -1,4 +1,3 @@
-console.log("data");
 const apiUrl =
   "https://main--sample-profile--karvannanpa.hlx.page/project.json";
 const dataContainer = document.querySelector(".magazine.block");
@@ -12,7 +11,6 @@ const fetchDataAndAppend = () => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
       createMagazine(data);
     })
     .catch((error) => {
@@ -23,7 +21,6 @@ const fetchDataAndAppend = () => {
 const createMagazine = (response) => {
   let data = response.data;
   data.forEach((item) => {
-    console.log(item);
     let itemElement = `<div>
     <div>
     <img  src="${item.image}">
@@ -41,4 +38,4 @@ const createMagazine = (response) => {
   });
 };
 
-fetchDataAndAppend();
+//fetchDataAndAppend();
