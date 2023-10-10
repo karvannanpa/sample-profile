@@ -10,6 +10,12 @@
     width: auto;
 }
 
+.magazine-wrapper .magazine img {
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+  }
+
 @media (min-width: 900px) {
     .magazine-wrapper .magazine.block>div {
        flex-direction: row;
