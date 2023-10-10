@@ -34,8 +34,8 @@ const createMagazine = (response) => {
 
     const parser = new DOMParser();
     const parsedHTML = parser.parseFromString(itemElement, "text/html");
-    dataContainer.appendChild(parsedHTML.body.firstChild);
+    // dataContainer.appendChild(parsedHTML.body.firstChild);
   });
 };
 
-//fetchDataAndAppend();
+fetchDataAndAppend();

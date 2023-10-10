@@ -19,6 +19,7 @@ function changeRandomImage() {
   const randomPicture = document.querySelector(".hero.block  picture");
   const randomImage = randomPicture.querySelector("img");
   const sourceElements = randomPicture.querySelectorAll("source");
+  document.querySelector(".hero").style.display = "block";
 
   // Update the src and type attributes for the <source> elements
   sourceElements.forEach((source, index) => {
@@ -31,4 +32,4 @@ function changeRandomImage() {
 }
 
 // Change the image source every 5 seconds
-setInterval(changeRandomImage, 1000);
+setInterval(changeRandomImage, 5000);
