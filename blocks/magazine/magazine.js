@@ -1,5 +1,6 @@
 console.log("data");
-const apiUrl = "https://main--adobefranklin--karvannanpa.hlx.page/project.json";
+const apiUrl =
+  "https://main--sample-project--karvannanpa.hlx.page/project.json";
 const dataContainer = document.querySelector(".magazine.block");
 
 const fetchDataAndAppend = () => {
