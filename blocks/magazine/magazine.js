@@ -1,5 +1,4 @@
-const apiUrl =
-  "https://main--sample-profile--karvannanpa.hlx.page/project.json";
+const apiUrl = "https://dev--sample-profile--karvannanpa.hlx.page/project.json";
 const dataContainer = document.querySelector(".magazine.block");
 
 const fetchDataAndAppend = () => {
