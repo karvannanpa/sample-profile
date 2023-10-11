@@ -13,7 +13,7 @@ const imageSources = [
   },
   // Add more image sources as needed
 ];
-
+let count = 0;
 function changeRandomImage() {
   const randomIndex = Math.floor(Math.random() * imageSources.length);
   const randomPicture = document.querySelector(".hero.block  picture");
@@ -21,14 +21,23 @@ function changeRandomImage() {
   const sourceElements = randomPicture.querySelectorAll("source");
   document.querySelector(".hero").style.display = "block";
 
+  const target = document.querySelector(".hero-container .hero.block div div");
+
   // Update the src and type attributes for the <source> elements
   sourceElements.forEach((source, index) => {
     source.srcset = imageSources[randomIndex].src;
     source.type = imageSources[randomIndex].type;
   });
+  if (count <= 1) {
+    var img = document.createElement("img");
+    img.src = imageSources[randomIndex].src;
+  }
+
+  target.appendChild(img);
 
   // Update the src attribute for the <img> element
   randomImage.src = imageSources[randomIndex].src;
+  count++;
 }
 
 // Change the image source every 5 seconds
