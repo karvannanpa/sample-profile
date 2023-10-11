@@ -23,7 +23,7 @@ const createMagazine = (response) => {
   data.forEach((item) => {
     let itemElement = `<div>
     <div>
-    <img  src="${item.image}">
+    <img alt="${item.title}" loading="lazy" src="${item.image}">
     </div>
     <div>
       <h2 id="wknd-adventures">${item.title}</h2>
